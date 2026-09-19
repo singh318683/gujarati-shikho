@@ -6,7 +6,7 @@ window.APP_CONFIG = {
   // false = use the phone/browser's built-in voice (prototype).
   // true  = play recorded files from /audio/<lesson>-<n>.mp3 first, then fall back to the built-in voice.
   // The Review screen lists the exact file name for every item.
-  useRecordedAudio: false,
+  useRecordedAudio: true,
   audioDir: 'audio/',
 
   // Paste a Google Form / Tally / email link here to show a "Send feedback" button to testers.
