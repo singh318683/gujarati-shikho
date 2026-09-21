@@ -1,11 +1,10 @@
 /* Settings you can change without touching the app code. */
 window.APP_CONFIG = {
-  // Change the suffix if you ever reset the course and want everyone's progress cleared.
-  storageKey: 'gujarati-shikho-v1',
+  // Changing the suffix clears everyone's saved progress (do this if you reorder lessons).
+  storageKey: 'gujarati-shikho-v2',
 
-  // false = use the phone/browser's built-in voice (prototype).
-  // true  = play recorded files from /audio/<lesson>-<n>.mp3 first, then fall back to the built-in voice.
-  // The Review screen lists the exact file name for every item.
+  // true  = play the recorded/generated files in /audio (recommended).
+  // false = use the phone's built-in voice, which most iPhones do not have for Gujarati.
   useRecordedAudio: true,
   audioDir: 'audio/',
 
