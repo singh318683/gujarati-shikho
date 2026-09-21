@@ -25,6 +25,9 @@ To replace a file with a real human recording, save it under the same file name.
 ## Put it on GitHub and Vercel
 Upload everything to a GitHub repository, then import that repository in Vercel with Framework Preset "Other" and no build command. Every push redeploys automatically.
 
+## iOS app
+The `ios-app` folder wraps this web app as a real iPhone app. See `ios-app/README-ios.md`.
+
 ## Change the lessons
 All content is in `data/gujarati.js`. Each phrase is one line. If you change a phrase's "said as" text, its audio file name changes too, so run `make_audio.py` again.
 

@@ -1,0 +1,9 @@
+{
+  "appId": "com.ikshana.gujaratishikho",
+  "appName": "Gujarati Shikho",
+  "webDir": "www",
+  "backgroundColor": "#F4F5F9",
+  "ios": {
+    "contentInset": "always"
+  }
+}

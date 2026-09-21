@@ -325,7 +325,7 @@
       });
       h += '</ol></section>';
     });
-    h += '<details class="tools"' + (toolsOpen ? ' open' : '') + '><summary>Testing tools</summary>' +
+    if (CFG.showTestingTools !== false) h += '<details class="tools"' + (toolsOpen ? ' open' : '') + '><summary>Testing tools</summary>' +
       '<label class="check"><input type="checkbox" data-a="toggle-unlock"' + (P.unlockAll ? ' checked' : '') + '> Unlock all lessons</label>' +
       '<label class="check"><input type="checkbox" data-a="toggle-script"' + (P.showScript ? ' checked' : '') + '> Show Gujarati script</label>' +
       '<button class="link" data-a="review">Open the content review list</button>' +
